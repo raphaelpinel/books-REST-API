@@ -1,7 +1,7 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Rest API with Node and Express",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app",
@@ -10,6 +10,10 @@
   },
   "author": "Raphaël Pinel",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphaelpinel/books-REST-API.git"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "nodemon": "^1.18.10"
