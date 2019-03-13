@@ -1,0 +1,6 @@
+To import Book data into your mongoDB datase.
+
+make sure MongoDB is running (run 'mongod')
+run 'mongo bookAPI < booksJson.js' from the command line
+
+connecting to: mongodb://127.0.0.1:27017/bookAPI?gssapiServiceName=mongodb
